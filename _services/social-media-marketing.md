@@ -1,4 +1,6 @@
 ---
 title: Social Media Marketing
-image_path: /imglykit-export.jpeg
+image_path: ''
 ---
+
+It's new life now, all connected and everything.
