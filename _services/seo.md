@@ -1,4 +1,6 @@
 ---
 title: SEO
-image_path: /imglykit-export.jpeg
+image_path: ''
 ---
+
+To Google or not to Google, that's the question!
