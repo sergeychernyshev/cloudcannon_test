@@ -2,7 +2,6 @@
 layout: default
 title: Services
 ---
-
 <section id="services">
   <div class="container">
     <div class="row">
@@ -17,9 +16,9 @@ title: Services
       {% for service in site.services %}
       <div class="col-lg-3 col-md-6 text-center">
         <div class="service-box">
-          <img src="{{ service.image_path }}" alt="{{ service.title }}" width="250" />
-          <h3>{{ service.title }}</h3>
-          <p class="text-muted">{{ service.content }}</p>
+          <img src="{{ service.image_path }}" alt="{{ service.title }}"  width="150" />
+          <h3><a href="{{ service.url }}">{{ service.title }}</a></h3>
+          <p class="text-muted">{{ service.content | truncatewords: 10 }}</p>
         </div>
       </div>
       {% endfor %}

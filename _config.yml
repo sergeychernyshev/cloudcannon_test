@@ -1,2 +1,10 @@
 collections:
-  - services
+  services:
+    output: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "post"
